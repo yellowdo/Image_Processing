@@ -1,15 +1,13 @@
 
 # OpenCV 환경 설정 (2018-08-19)
 
-#### OpenCV 3.4.2 Download
+## OpenCV 3.4.2 Download
 
 - https://github.com/opencv/opencv/releases
 
 - [opencv 3.4.2 releases](https://github.com/opencv/opencv/releases/download/3.4.2/opencv-3.4.2-vc14_vc15.exe)
 
-#### 압축 풀기
-
-- 파일 실행 후 압축 풀면 아래와 같음
+- 다운로드 파일 실행 후 압축 풀면 아래와 같음
 
 ```bash
 ├── build
@@ -23,7 +21,7 @@
 
 - build 폴더의 내용을 C:/opencv-3.4.2 으로 이동
 
-#### Visual Studio 2017 설정
+## Visual Studio 2017 설정
 
 - 솔루션의 속성으로 이동
 
@@ -78,7 +76,7 @@
  ![](/images/vs2017_openv_set_05.png)
  
 
-#### OpenCV Build 3.4.2 with contrib, eigen (VS 2017)
+## OpenCV Build 3.4.2 with contrib, eigen (VS 2017)
 
 - [Cmake Download](https://cmake.org/download/)
 

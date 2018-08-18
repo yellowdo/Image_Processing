@@ -16,4 +16,7 @@
 
 ### 환경 설정
 
-- [OpenCV Init](/opencv.md)
+- [OpenCV C++ Windows Visual Studio 2017 환경 설정](/opencv.md)
+
+- [OpenCV Python Anaconda 환경 설정 참고](https://github.com/yellowdo/python_face_detection/blob/master/env.md)
+
