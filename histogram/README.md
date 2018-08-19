@@ -16,19 +16,19 @@
 
 - 히스토그램 모양과 범위에 집중
 
-![ ](/images/histo_02.png)
+![](images/histo_02.png)
 
 - Histogram stretching / shrinking (normalize 함수)
 
-![ ](/images/histo_03.png)
+![](images/histo_03.png)
 
 - Histogram sliding
 
-![ ](/images/histo_04.png)
+![](images/histo_04.png)
 
 - Equalization: 입력 영상의 Contrast를 조정하여 좋은 Contrast로 만드는 연산
 
-![ ](/images/histo_05.png)
+![](images/histo_05.png)
 
 - Equalization Algorithm (equalizeHist 함수)
 
@@ -40,7 +40,7 @@
   
   - 입력 영상의 각gray level에 대해 변환 값으로 대응시킴
 
-![ ](/images/histo_06.png)
+![](images/histo_06.png)
 
   
 - 직접 구현한 소스와 OpenCV 함수 결과 비교
@@ -86,4 +86,4 @@ void normalize(Mat& image, Mat& dst, int range_min = 0, int range_max = 255) {
 }
 ```
 
-![ ](/images/histo_07.png)
+![](images/histo_07.png)
