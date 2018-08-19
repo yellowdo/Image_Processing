@@ -42,9 +42,6 @@
 
 ![](images/histo_06.png)
 
-  
-- 직접 구현한 소스와 OpenCV 함수 결과 비교
-
 - normalize
 
 ```
@@ -85,5 +82,6 @@ void normalize(Mat& image, Mat& dst, int range_min = 0, int range_max = 255) {
 	free(val);
 }
 ```
+- 직접 구현한 소스와 OpenCV 함수 결과 비교
 
 ![](images/histo_07.png)
