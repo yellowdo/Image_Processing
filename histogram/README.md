@@ -8,7 +8,7 @@
 
 - 히스토그램 modification 과정을 통하여 Contrast & Brightness를 조정 가능
 
-![ ](/images/histo_01.png)
+![](images/histo_01.png)
 
 ### Histogram Modification
 
@@ -45,7 +45,7 @@
   
 - 직접 구현한 소스와 OpenCV 함수 결과 비교
 
-  - normalize
+- normalize
 
 ```
 void normalize(Mat& image, Mat& dst, int range_min = 0, int range_max = 255) {
@@ -60,7 +60,7 @@ void normalize(Mat& image, Mat& dst, int range_min = 0, int range_max = 255) {
 }
 ```
 
-  - equalizeHist
+- equalizeHist
   
 ```
  void equalizeHist(Mat& src, Mat& dst, int nbins = 255) {
