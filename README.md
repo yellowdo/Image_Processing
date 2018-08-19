@@ -15,7 +15,6 @@
 | 내용 | [README](/histogram/README.md) |
 | :------------: | :------------: |
 | Source | [histo.cpp](/histogram/histo.cpp) |
-| :------------: | :------------: |
 |        | [histo.hpp](/histogram/histo.hpp) |
 
 ---
