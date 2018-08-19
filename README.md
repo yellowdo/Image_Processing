@@ -19,6 +19,15 @@
 
 ---
 
+### OpenCV Median Filter [C++]
+
+| 내용 | [README](/median/README.md) |
+| :------------: | :------------: |
+| Source | [median.cpp](/median/median.cpp) |
+|        | [median.hpp](/median/median.hpp) |
+
+---
+
 ### Other
 
 ---
