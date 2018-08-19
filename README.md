@@ -2,11 +2,19 @@
 
 ---
 
-### OpenCV 활용 Camera Calibration 
+### OpenCV Camera Calibration [Python]
 
 | Save | Load |
 | :------------: | :------------: |
 | [camera_calibration_save](/camera_calibration/cam-cal-saved.ipynb) | [camera_calibration_load](/camera_calibration/cam-cal-loaded.ipynb) |
+
+---
+
+### OpenCV Histogram [C++]
+
+| 내용 | [README](/histogram/README.md) |
+| Source | [histo.cpp](/histogram/histo.cpp) |
+|        | [histo.hpp](/histogram/histo.hpp) |
 
 ---
 
