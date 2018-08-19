@@ -5,7 +5,7 @@ using namespace cv;
 using namespace std;
 
 int main() {
-    Mat image = imread("../resource/ex_2.PNG", IMREAD_GRAYSCALE);
+    Mat image = imread("ex_2.PNG", IMREAD_GRAYSCALE);
 
     imshow("Original IMAGE", image);
     imshow("Histo IMAGE", createHistImage(getHistogram(image)));
