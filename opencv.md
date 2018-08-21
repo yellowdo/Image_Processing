@@ -31,25 +31,25 @@
  
  - 구성 속성 > 디버깅 > 환경
  
- `PATH=C:\opencv-3.4.2\x64\vc15\bin;%PATH%`
+`PATH=C:\opencv-3.4.2\x64\vc15\bin;%PATH%`
  
- ![](/images/vs2017_openv_set_01.png)
+![](/images/vs2017_openv_set_01.png)
  
 - C/C++ 설정
 
  - 구성 속성 > C/C++ > 일반 > 추가 포함 디렉터리
  
- `C:\opencv-3.4.2\include`
+`C:\opencv-3.4.2\include`
  
- ![](/images/vs2017_openv_set_02.png)
+![](/images/vs2017_openv_set_02.png)
  
 - 링커 설정
 
  - 구성 속성 > 링커 > 일반 > 추가 라이브러리 디렉터리
  
- `C:\opencv-3.4.2\x64\vc15\lib`
+`C:\opencv-3.4.2\x64\vc15\lib`
  
- ![](/images/vs2017_openv_set_03.png)
+![](/images/vs2017_openv_set_03.png)
  
 - Debug Mode
  
@@ -61,7 +61,7 @@
  
  Build 결과물 일 시 : `opencv_world342d.lib;opencv_img_hash342d.lib;`
  
- ![](/images/vs2017_openv_set_04.png)
+![](/images/vs2017_openv_set_04.png)
  
 - Release Mode
  
@@ -73,7 +73,7 @@
  
  Build 결과물 일 시 : `opencv_world342.lib;opencv_img_hash342.lib;`
  
- ![](/images/vs2017_openv_set_05.png)
+![](/images/vs2017_openv_set_05.png)
  
 
 ## OpenCV Build 3.4.2 with contrib, eigen (VS 2017)
